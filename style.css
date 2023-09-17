@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(33, 144, 213);
+}
+
+.card {
+    background-color: rgb(63, 62, 62);
+    color: aliceblue;
+    border-radius: 10px;
+    
+    
+}
+
+.card-body {
+    background-color: #474747;
+}
+
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+
+.btn-link {
+    color: aliceblue;
+}
+
+.btn-link:hover {
+    color: rgb(33, 144, 213);
+    transition: 0.4s linear;
+}
+
+.btn-info:hover {
+    box-shadow: -2px 5px 17px -1px rgba(17,68,213,0.67);
+    background: rgba(17,68,213,0.67);
+    border: none;
+    transition: 0.4s linear;
+}
+
+.btn-success:hover {
+    box-shadow: -2px 5px 17px -1px rgba(29, 248, 47, 0.67);
+    background: rgba(29, 248, 47, 0.67);
+}
